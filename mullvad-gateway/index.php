@@ -20,7 +20,7 @@ function get_dns_servers() {
             }
         }
     } else {
-        return ["error" => "Die Datei /etc/resolv.conf ist nicht verfügbar oder nicht lesbar."];
+        return ["error" => "failed to load /etc/resolv.conf."];
     }
 
     return $dns_servers;
@@ -219,7 +219,7 @@ function get_dns_servers() {
             </div>
 
             <div class="infoFrameHolder">
-                <!-- STATUS INFO -->
+                <!-- STATUS DNS -->
                 <div class="infoholder">
                     <?php
                     $dns_servers = get_dns_servers();
@@ -236,8 +236,6 @@ function get_dns_servers() {
                     ?>
                 </div>
             </div>
-
-
         </div>
     </div>
 </body>
