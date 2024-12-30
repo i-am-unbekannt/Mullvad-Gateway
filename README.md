@@ -1,6 +1,6 @@
 # Mullvad Gateway Setup Guide
 
-This guide will walk you through building and configuring a Mullvad Gateway network. The following prerequisites and steps are required to successfully set up the gateway.
+This guide explains how to route all traffic from an entire network through the Mullvad VPN, creating a network-wide VPN without requiring the installation of VPN clients on individual devices. The following prerequisites and steps are required to successfully set up the gateway.
 
 ## Prerequisites
 
