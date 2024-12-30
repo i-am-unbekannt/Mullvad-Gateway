@@ -83,11 +83,13 @@ Install and configure the web panel for managing the gateway:
 
 ```bash
 # Install Apache2, PHP, and required modules
-sudo apt install apache2 php libapache2-mod-php -y
+sudo apt install git apache2 php libapache2-mod-php -y
+git clone https://github.com/i-am-unbekannt/Mullvad-Gateway
+cd Mullvad-Gateway
 
 # Remove default web files and deploy the custom web panel
 sudo rm -rf /var/www/html/*
-sudo cp -r panel/* /var/www/html/
+sudo cp -r mullvad-gateway/* /var/www/html/
 ```
 
 ---
