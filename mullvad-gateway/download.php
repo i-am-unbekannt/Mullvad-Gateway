@@ -28,9 +28,9 @@ session_start();
             <br>
             <br>
             <div class="navbar">
-                <p><a href="http://10.0.31.109">Status</a></p>
+                <p><a href="index.php">Status</a></p>
                 <br><br>
-                <p><a href="http://10.0.31.109/download.php">Download</a></p>
+                <p><a href="download.php">Download</a></p>
             </div>
         </div>
 
